@@ -4,22 +4,57 @@
     color: rgb(61, 61, 61)
 }
 #main{
+    background-color: white;
     border-radius: 5px;
     margin-top: 70px;
-    background-color: white;
     width: 50%;
     margin-left: 25%;
 }
 h1{
-    background-color: white;
     margin-bottom: 5px;
-    padding-top: 10px;
+    background-color: white;
 }
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
 input{
     background-color: white;
     border:rgb(86, 170, 248) 5px solid;
     height: 25px;
-    width: 97.5%;
-    margin-bottom: 15px;
+    width: 98.5%;
+    margin-bottom: 0;
     vertical-align: middle;
+}
+ul{
+    margin-top: 0;
+    background-color: white;
+}
+li{
+    display: flex;
+    margin-top: 5px;
+    background-color: white;
+}
+.todos input{
+    border: 0;
+}
+.deleteBtn{
+    color: red;
+    background-color: white;
+    border: red solid 1px;
+    border-radius: 3px;
+    width: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.editBtn{
+    background-color: white;
+    color: rgb(240, 189, 21);
+    border: rgb(240, 189, 21) solid 1px;
+    border-radius: 3px;
+    width: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
