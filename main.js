@@ -85,8 +85,6 @@ function addTodo(todo) {
      refreshTodos()
  })
 
-
-
  li.appendChild(todoText)
  li.appendChild(deleteBtn)
  li.appendChild(editBtn)
