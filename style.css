@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(233, 230, 230); 
+    font-family: sans-serif;
+    color: rgb(61, 61, 61)
+}
+#main{
+    border-radius: 5px;
+    margin-top: 70px;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+}
+h1{
+    background-color: white;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+input{
+    background-color: white;
+    border:rgb(86, 170, 248) 5px solid;
+    height: 25px;
+    width: 97.5%;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
