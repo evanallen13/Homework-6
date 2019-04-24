@@ -68,9 +68,11 @@ function addTodo(todo) {
 
   // Setup an event listener for the checkbox.
   deleteBtn.addEventListener('click', function(e) {
+    if(confirm('are you sure')){
     const id = parseInt(e.target.getAttribute('data-id'))
 
     deleteTodo(id, refreshTodos)
+    }
   })
 
 // Edit 
@@ -80,9 +82,9 @@ function addTodo(todo) {
  editBtn.textContent = 'Edit'
  editBtn.type = 'button'
  editBtn.addEventListener('click',function(e){
-     let change = document.getElementById(`todoText-${editBtn.id}`).value
-     updateTodo(todo.timestamp,change)
-     refreshTodos()
+    let change = document.getElementById(`todoText-${editBtn.id}`).value
+    updateTodo(todo.timestamp,change)
+    refreshTodos()
  })
 
  li.appendChild(todoText)
@@ -90,6 +92,7 @@ function addTodo(todo) {
  li.appendChild(editBtn)
 
 }
+
 
 
 
